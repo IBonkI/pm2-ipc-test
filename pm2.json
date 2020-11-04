@@ -1,0 +1,9 @@
+{
+  "apps": {
+    "name": "op-puls",
+    "script": "src/index.js",
+    "instances": "-1",
+    "exec_mode": "cluster",
+    "combine_logs": true
+  }
+}
