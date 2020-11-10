@@ -1,9 +1,11 @@
-# pm2-ipc-test
+# pm2-ipc-test     
+
 I tried myself on pm2 by starting a node app in multiple instances so its more performant by doing load balancing... 
 main purpose was to learn how to do inter process communication in pm2 which i needed for a bigger Project
 
 ***Note: Load Balancing did not work as expected on Windows, but did on Linux***
 
+Github Repo: https://github.com/Unitech/pm2
 
 ## Start the App 
 go to root directory of this project and start it with pm2 either by writing ```pm2 start .src/index.js``` into the terminal
