@@ -6,7 +6,8 @@ main purpose was to learn how to do inter process communication in pm2 which i n
 
 
 ## Start the App 
-go to root directory of this project and start it with pm2 by writing ```pm2 start .src/index.js``` into the terminal
+go to root directory of this project and start it with pm2 either by writing ```pm2 start .src/index.js``` into the terminal
+or if you have a pm2.json which serves as a config you can also use it to start like ```pm2 start pm2.json```
 
 ### Starting the App with multiple Node Instances
 just like you would normally start the app with pm2 but adding ´´´-i´´´ which tells pm2 to run in a cluster
