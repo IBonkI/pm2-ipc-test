@@ -5,14 +5,14 @@ main purpose was to learn how to do inter process communication in pm2 which i n
 
 ***Note: Load Balancing did not work as expected on Windows, but did on Linux***
 
-Github Repo: https://github.com/Unitech/pm2
+**Github Repo: https://github.com/Unitech/pm2**
 
 ## Start the App 
 go to root directory of this project and start it with pm2 either by writing ```pm2 start .src/index.js``` into the terminal
 or if you have a pm2.json which serves as a config you can also use it to start like ```pm2 start pm2.json```
 
 ### Starting the App with multiple Node Instances
-just like you would normally start the app with pm2 but adding ´´´-i´´´ which tells pm2 to run in a cluster
+just like you would normally start the app with pm2 but adding ```-i``` which tells pm2 to run in a cluster
 and a number afterwards ```-1``` to run with all cores -1 or ```all``` if you want all or any number then it uses that number
 
 ***Example: ```pm2 start .src/index.js -i -1```***
